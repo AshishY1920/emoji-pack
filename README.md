@@ -14,11 +14,7 @@
 import { EmojiCollection } from "emoiji-pack";
 
 function App() {
-  return (
-    <div>
-      <EmojiCollection columns={5} width="20" toolTipTopPosition="35" />
-    </div>
-  );
+  return <EmojiCollection columns={5} width="20" toolTipTopPosition="35" />;
 }
 
 export default App;
