@@ -26,12 +26,21 @@ export default App;
 
 ## Props
 
-| Name          | Type     | Description                                                                                             |
-| ------------- | -------- | ------------------------------------------------------------------------------------------------------- |
-| `emojis`      | `array`  | An array of emojis, where each emoji is an object with `symbol` and `label` properties (example below). |
-| `columns`     | `number` | The number of columns to display. Default value is `5`.                                                 |
-| `borderColor` | `string` | Border color for customization according to your UI.                                                    |
-| `borderWidth` | `number` | Border width. Default value is `1`.                                                                     |
+| Name                     | Type     | Description                                                                                             |
+| ------------------------ | -------- | ------------------------------------------------------------------------------------------------------- |
+| `emojis`                 | `array`  | An array of emojis, where each emoji is an object with `symbol` and `label` properties (example below). |
+| `columns`                | `number` | The number of columns to display. Default value is `5`.                                                 |
+| `borderColor`            | `string` | Border color for customization according to your UI.                                                    |
+| `borderWidth`            | `number` | Border width. Default value is `1`.                                                                     |
+| `borderRadius`           | `string` | Border Radius. Default value is `5`.                                                                    |
+| `gap`                    | `string` | column gap. Default value is `10`.                                                                      |
+| `width`                  | `string` | Container width. Default value is `30`.                                                                 |
+| `toolTipBackgroundColor` | `string` | Tooltip Background Color. Default value is `#1c1c1c`.                                                   |
+| `toolTipTextColor`       | `string` | Tooltip Text Color. Default value is `white`.                                                           |
+| `tooltipFontFamily`      | `string` | Tooltip Font Family. Default value is `cursive`.                                                        |
+| `toolTipBorderRadius`    | `string` | Tooltip Border Radius. Default value is `5`.                                                            |
+| `toolTipFontSize`        | `string` | Tooltip Font Size. Default value is `0.875rem`.                                                         |
+| `toolTipTopPosition`     | `string` | Tooltip Top Position. Default value is `-30`.                                                           |
 
 ### Example for `emojis`
 
