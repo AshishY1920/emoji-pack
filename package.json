@@ -23,10 +23,12 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AshishY1920/simple-increment-decrement-counter"
+    "url": "https://github.com/AshishY1920/emoji-pack"
   },
   "keywords": [
-    "emo",
+    "emoji",
+    "emoji pack",
+    "emoiji",
     "counter",
     "simple increment decrement counter",
     "simple counter",

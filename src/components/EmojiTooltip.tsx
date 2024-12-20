@@ -44,6 +44,7 @@ const EmojiWithTooltip = ({
           position: "absolute",
           top: `${toolTipTopPosition}px`,
           left: "50%",
+          zIndex: 999,
           transform: "translateX(-50%)",
           backgroundColor: toolTipBackgroundColor,
           color: toolTipTextColor,
