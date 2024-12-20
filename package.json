@@ -1,6 +1,6 @@
 {
   "name": "emoiji-pack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-typescript": "^12.1.2",

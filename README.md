@@ -1,4 +1,4 @@
-# Counter (Increment Decrement)
+# Emoji Pack
 
 ## Authors
 
