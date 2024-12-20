@@ -1,0 +1,37 @@
+{
+  "dependencies": {},
+  "name": "emoiji-pack",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rollup": "^4.28.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AshishY1920/simple-increment-decrement-counter"
+  },
+  "keywords": [
+    "emo",
+    "counter",
+    "simple increment decrement counter",
+    "simple counter",
+    "react js counter",
+    "react js",
+    "react native counter"
+  ]
+}
