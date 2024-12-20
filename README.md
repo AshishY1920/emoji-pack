@@ -23,3 +23,27 @@ function App() {
 
 export default App;
 ```
+
+## Props
+
+| Name          | Type     | Description                                                                                             |
+| ------------- | -------- | ------------------------------------------------------------------------------------------------------- |
+| `emojis`      | `array`  | An array of emojis, where each emoji is an object with `symbol` and `label` properties (example below). |
+| `columns`     | `number` | The number of columns to display. Default value is `5`.                                                 |
+| `borderColor` | `string` | Border color for customization according to your UI.                                                    |
+| `borderWidth` | `number` | Border width. Default value is `1`.                                                                     |
+
+### Example for `emojis`
+
+```javascript
+const defaultEmojis = [
+  { symbol: "😀", label: "Grinning Face" },
+  { symbol: "🎉", label: "Party Popper" },
+  { symbol: "❤️", label: "Red Heart" },
+  { symbol: "🔥", label: "Fire" },
+  { symbol: "🚀", label: "Rocket" },
+  { symbol: "😒", label: "Sad" },
+  { symbol: "🤣", label: "Funny" },
+  { symbol: "💋", label: "Kiss" },
+];
+```
