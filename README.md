@@ -11,7 +11,7 @@
 ## Usage/Examples
 
 ```javascript
-import { EmojiCollection } from "emoiji-pack";
+import { EmojiCollection } from "emoji-pack";
 
 function App() {
   return <EmojiCollection columns={5} width="20" toolTipTopPosition="35" />;
